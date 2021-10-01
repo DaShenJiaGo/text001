@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这个地方写的是你接口的目录地址-->
+<mapper namespace="com.beijing.dao.ProviceDao">
+    <!--resultType:代表着jdbc中返回的那个rs结果集,顺便将sql中的字段进行对应赋值给对象-->
+    <select id="selectProvice" resultType="com.beijing.daomain.Province">
+        select id, name, jiancheng, shenghui from province
+    </select>
+</mapper>

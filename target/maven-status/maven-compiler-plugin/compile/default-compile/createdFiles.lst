@@ -1,0 +1,4 @@
+com\beijing\daomain\City.class
+com\beijing\daomain\Province.class
+com\beijing\dao\ProviceDao.class
+com\beijing\uilte\MybatisUilte.class
